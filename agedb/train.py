@@ -12,11 +12,10 @@ from data.agedb import *
 from utils import AverageMeter, accuracy, shot_metric, setup_seed, balanced_metrics, shot_metric_balanced, diversity_loss, feature_diversity
 from utils import soft_labeling, SoftCrossEntropy
 import torch
-from loss import *
-from network import *
+from model import *
 import torch.optim as optim
 import time
-from scipy.stats import gmean
+
 
 
 # current sota 7.73, 7.46, 7.76, 10.08
